@@ -461,7 +461,7 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
 						</header>
 						<div class="content">
 							<p><strong>Auctor commodo</strong> interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis.</p>
-							<form>
+							<form action="POST" data-netlify="true">
 								<div class="fields">
 									<div class="field half">
 										<input type="text" name="name" id="name" placeholder="Name" />
@@ -470,11 +470,19 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
 										<input type="email" name="email" id="email" placeholder="Email" />
 									</div>
 									<div class="field">
+										<input type="text" name="subject" id="subject" placeholder="Subject"></input>
+									</div>
+									<div class="field">
 										<textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
 									</div>
+									<div class="field">
+										<input type="file" name="Attached-file" id="Attached-file" placeholder="Upload File" rows="4">
+									</div>
+								&nbsp;&nbsp;
 								</div>
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" class="button primary" /></li>
+									<li><input type="submit" value="Send" class="button primary" /></li>
+									<li><input type="reset" value="Reset" /></li>
 								</ul>
 							</form>
 						</div>
