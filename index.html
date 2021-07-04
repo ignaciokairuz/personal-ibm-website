@@ -21,12 +21,12 @@
 
 				<!-- Intro -->
 					<section class="intro">
-						<header>
+						<header id="header1">
 							<h1>With Ignacio</h1>
 							<h2>let's build a smater planet</h2>
-							<ul class="actions">
+							<!--DELETE THIS?<ul class="actions">
 								<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
-							</ul>
+							</ul>-->
 						</header>
 						<!--<div class="content">
 							<span class="image fill" data-position="center"><img src="IBM/images/pic01.jpg" alt="" /></span>
@@ -54,7 +54,7 @@
 
 				<!-- Section -->
 					<section>
-						<header>
+						<header id="header2">
 							<h2>VALUES</h2>
 						</header>
 						<div class="content">
@@ -105,9 +105,31 @@
 
 				<!-- Section -->
 					<section>
-						<header>
+						<header id="header3" style="background-color:#000000;">
 							<h2>ABOUT ME</h2>
+							  <div>
+							    <img id="img" src="IBM/images/ignacioisibmer2.png" style="height: 300px;" alt="Bulb img"><br>
+							    <button id="button" onclick="fu()">Click Here</button>
+							    <!--<img src="close.png" style="width:50px" id="button" onclick="fu()"></img>-->
+							  </div>
 						</header>
+					            <script>
+						    var c = 0;
+						    function fu(){
+						      if(c==0){
+							document.getElementById('img').src = "IBM/images/ignacioisibmer1.png";
+							document.getElementById("button").innerHTML = "Turn ON";
+							document.getElementById("backcolor").style.backgroundColor = "#fff";
+							c=1;
+						      }
+						      else if(c==1){
+							document.getElementById("img").src = "IBM/images/ignacioisibmer2.png";
+							document.getElementById("button").innerHTML = "Turn OFF";
+							document.getElementById("backcolor").style.backgroundColor = "lightblue";
+							c=0;
+						      }
+						    }
+						    </script>
 						<div class="content">
 							<p>Hi! People call me Nacho :) (why I’m a fit specifically for this role in the student program ; say that I’m from argentina)
 
