@@ -4097,3 +4097,12 @@ body {
     height: 3vw;
 }
 
+#bulb {
+    display: block;
+    position: absolute;
+    top: 0%;
+    right: 2%;
+    width: 10%;
+    height: %;
+}
+
