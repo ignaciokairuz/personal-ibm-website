@@ -4105,4 +4105,12 @@ body {
     width: 10%;
     height: %;
 }
-
+#img {
+	  display: block;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: auto;
+    height: %;
+	
+}
