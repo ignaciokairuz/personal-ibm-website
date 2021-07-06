@@ -4114,3 +4114,31 @@ body {
     height: %;
 	
 }
+@media (max-width: 600px) {
+      #header3 {
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          width: auto;
+          background-image: url('https://cdn.discordapp.com/attachments/247714643252871170/861971696495886380/unknown.png');
+   }
+}
+
+* {
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+#header3 {
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          width: 100%;
+          background-image: url("https://cdn.discordapp.com/attachments/859942599636025375/862000054864707664/disc-help-img.png");
+          height: 100%;
+          }          
