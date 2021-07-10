@@ -1,0 +1,139 @@
+
+/* Banner1 */
+
+    #banner1 {
+        background-image: url("../../images/banner1.jpg");
+        background-position: left center;
+        background-size: cover;
+        /*height: 28em;*/
+        text-align: center;
+        position: relative;
+    }
+
+        #banner1 header {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: #212121;
+            background: rgba(27, 27, 27, 0.75);
+            color: #fff;
+            padding: 1.5em 0;
+        }
+
+            #banner1 header h2 {
+                display: inline-block;
+                margin: 0;
+                font-size: 1.25em;
+                vertical-align: middle;
+            }
+
+                #banner1 header h2 em {
+                    opacity: 0.75;
+                }
+
+                #banner1 header h2 a {
+                    border-bottom-color: rgba(255, 255, 255, 0.5);
+                }
+
+                    #banner1 header h2 a:hover {
+                        border-bottom-color: transparent;
+                    }
+
+            #banner1 header .button {
+                vertical-align: middle;
+                margin-left: 1em;
+            }
+
+/* Banner2 */
+
+    #banner2 {
+        background-image: url("../../images/banner2.jpg");
+        background-position: left center;
+        background-size: cover;
+        /*height: 28em;*/
+        text-align: center;
+        position: relative;
+    }
+
+        #banner2 header {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: #212121;
+            background: rgba(27, 27, 27, 0.75);
+            color: #fff;
+            padding: 1.5em 0;
+        }
+
+            #banner2 header h2 {
+                display: inline-block;
+                margin: 0;
+                font-size: 1.25em;
+                vertical-align: middle;
+            }
+
+                #banner2 header h2 em {
+                    opacity: 0.75;
+                }
+
+                #banner2 header h2 a {
+                    border-bottom-color: rgba(255, 255, 255, 0.5);
+                }
+
+                    #banner2 header h2 a:hover {
+                        border-bottom-color: transparent;
+                    }
+
+            #banner2 header .button {
+                vertical-align: middle;
+                margin-left: 1em;
+            }
+
+/* Banner3 */
+
+    #banner3 {
+        background-image: url("../../images/banner3.jpg");
+        background-position: left center;
+        background-size: cover;
+        /*height: 28em;*/
+        text-align: center;
+        position: relative;
+    }
+
+        #banner3 header {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: #212121;
+            background: rgba(27, 27, 27, 0.75);
+            color: #fff;
+            padding: 1.5em 0;
+        }
+
+            #banner3 header h2 {
+                display: inline-block;
+                margin: 0;
+                font-size: 1.25em;
+                vertical-align: middle;
+            }
+
+                #banner3 header h2 em {
+                    opacity: 0.75;
+                }
+
+                #banner3 header h2 a {
+                    border-bottom-color: rgba(255, 255, 255, 0.5);
+                }
+
+                    #banner3 header h2 a:hover {
+                        border-bottom-color: transparent;
+                    }
+
+            #banner3 header .button {
+                vertical-align: middle;
+                margin-left: 1em;
+            }
+
